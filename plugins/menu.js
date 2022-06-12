@@ -51,7 +51,7 @@ Halo, %ucapan %name! 👋
 | *XP:* %exp
 ╰─────────────╯
 %readmore`.trimStart(),
-  header: ' ❏ %category /n',
+  header: ' ❏ %category \n',
   body: ' ⊱ %cmd %islimit %isPremium',
   footer: '\n',
   after: `*Made by 🌙*
