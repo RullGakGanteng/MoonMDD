@@ -19,8 +19,8 @@ module.exports = handler*/
 
 const hxz = require("hxz-api")
 let handler = async(m, { conn, args, usedPrefix, command }) => {
-if (!args[0]) throw `*Perintah ini untuk mengunduh video tiktok dengan link*\n\ncontoh:\n${usedPrefix + command} https://vm.tiktok.com/ZGJAmhSrp/`
-if (!args[0].match(/tiktok/gi)) throw `*Link salah! Perintah ini untuk mengunduh video tiktok dengan link*\n\ncontoh:\n${usedPrefix + command} https://vm.tiktok.com/ZGJAmhSrp/`
+if (!args[0]) throw `*Perintah ini untuk mengunduh video tiktok dengan link*\n\ncontoh:\n${usedPrefix + command} https://vt.tiktok.com/ZSdnNnu1N/?k=1`
+if (!args[0].match(/tiktok/gi)) throw `*Link salah! Perintah ini untuk mengunduh video tiktok dengan link*\n\ncontoh:\n${usedPrefix + command} https://vt.tiktok.com/ZSdnNnu1N/?k=1`
 let p = await  hxz.ttdownloader(args[0])
 const { nowm, wm, audio } = p
 // made by aine
