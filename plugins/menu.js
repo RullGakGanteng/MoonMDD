@@ -36,27 +36,28 @@ let tags = {
 const defaultMenu = {
   before: `
 Halo, %ucapan %name! 👋
-┌──────────────────┐ 
-| *Waktu:* 
-| %wib WIB
-| %wita WITA
-| %wit WIT
-| *Hari:* %week
-| *Tanggal:* %date
-| *Uptime:* %uptime (%muptime)
-└──────────────────┘ 
-╭─────────────╮ 
-| *Limit:* %limit
-| *Level:* %level
-| *XP:* %exp
-╰─────────────╯
+
+⏲️ *Waktu:* 
+✨ %wib WIB
+✨ %wita WITA
+✨ %wit WIT
+🌄 *Hari:* %week
+📅 *Tanggal:* %date
+❗ *Uptime:* %uptime (%muptime)
+
+𝙽𝙾𝚃𝙴: 𝙹𝙰𝙽𝙶𝙰𝙽 𝚂𝙿𝙰𝙼
+
+⭐ *Limit:* %limit
+📈 *Level:* %level
+✨ *XP:* %exp
+
 %readmore`.trimStart(),
   header: ' ❏ %category \n',
   body: ' ⊱ %cmd %islimit %isPremium',
   footer: '\n',
-  after: `*Made by 🌙*
-MoonBot | %version
-${'```%npmdesc```'}
+  after: `*𝙈𝙤𝙤𝙣𝘽𝙤𝙩 𝘽𝙮 𝙍𝙪𝙡𝙡*
+𝖬𝗈𝗈𝗇𝖡𝗈𝗍 | %version
+${'```𝑴𝒐𝒐𝒏𝑩𝒐𝒕 𝑩𝒚 𝑹𝒖𝒍𝒍```'}
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p }) => {
