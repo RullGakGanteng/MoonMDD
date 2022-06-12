@@ -51,8 +51,8 @@ Halo, %ucapan %name! 👋
 | *XP:* %exp
 ╰─────────────╯
 %readmore`.trimStart(),
-  header: ' ❏ %category ',
-  body: ' ┆ %cmd %islimit %isPremium',
+  header: ' ❏ %category /n',
+  body: ' ⊱ %cmd %islimit %isPremium',
   footer: '\n',
   after: `*Made by 🌙*
 MoonBot | %version
