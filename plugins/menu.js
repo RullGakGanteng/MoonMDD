@@ -50,10 +50,10 @@ Hai, %ucapan %name! 👋
 *XP:* %exp
 %readmore`.trimStart(),
   header: ' *%category*',
-  body: ' • %cmd %islimit %isPremium',
+  body: ' ✿ %cmd %islimit %isPremium',
   footer: '\n',
-  after: `*Made by ♡*
-*%npmname* | %version
+  after: `*Made by 🌙*
+MoonBot | %version
 ${'```%npmdesc```'}
 `,
 }
@@ -174,7 +174,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
                             hydratedFooterText:'Ⓟ premium | Ⓛ limit',
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'Website',
+                                    displayText: 'MoonBot',
                                     url: 'https://Ainebot.github.io/'
                                 }
                             }, {
