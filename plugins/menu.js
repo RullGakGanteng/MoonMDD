@@ -175,7 +175,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'MoonBot',
-                                    url: 'https://Ainebot.github.io/'
+                                    url: 'https://chat.whatsapp.com/HX5ceerf4oZ3Eld0osiFqH'
                                 }
                             }, {
                                 quickReplyButton: {
