@@ -192,40 +192,23 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
     default:
       if (!/[01]/.test(command)) return m.reply(`
 List option:
-|> welcome
-• Sambutan Buat Member Baru
-|> delete
-• ??
-|> public
-• Mengpublik Bot
-|> antilink
-• Biar Gak ad yang ngirim link grub
-|> antidelete
-• Biar Gak Ad Yang delete Pesan
-|> antisticker
-• Biar Gak Ad Yang Ngirim sticker
-|> autosticker
-• Kalau Kirim Gambar Langsung jadi Stick
-|> autolevelup
-• Di Hapus
-|> detect
-• Detect Sesuatu
-|> document
-• Biar File Gak Jadi Dokumen (munkin)
-|> whitelistmycontacts
-• Whitelist Kontak Kamu
-|> restrict
-• Biar Bot Nya Peka
-|> nyimak
-• Bot Hanya Bisa Nyimak
-|> autoread
-• Biar Bot Langsung Read Pesan
-|> pconly
-• Hanya Private Chat
-|> gconly
-• Hanya Grub
-|> swonly
-• Hanya Sw
+🥳 welcome
+❗ delete
+🌍 public
+🔗 antilink
+❌ antidelete
+🖼️ antisticker
+🖼️ autosticker
+📈 autolevelup
+❗ detect
+📃 document
+🏳️ whitelistmycontacts
+❗ restrict
+🙂 nyimak
+✅ autoread
+👤 pconly
+👥 gconly
+👀 swonly
 Contoh Penggunaan:
 ${usedPrefix}enable welcome
 ${usedPrefix}disable welcome
