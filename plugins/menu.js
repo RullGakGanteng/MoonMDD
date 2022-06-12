@@ -157,10 +157,10 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    conn.sendHydrated(m.chat, text.trim(), 'Ⓟ premium | Ⓛ limit', null, 'https://aiinne.github.io/', 'Website', '', '', [
+    conn.sendHydrated(m.chat, text.trim(), 'Ⓟ premium | Ⓛ limit', null, 'https://chat.whatsapp.com/HX5ceerf4oZ3Eld0osiFqH', 'MoonBot', '', '', [
       ['Donate', '/donasi'],
-      ['Sewa Bot', '/sewa'],
-      ['Owner', '/owner']
+      ['Owner', '/owner'],
+      ['Kecepatan', '/speed']
     ], m)
     /*let url = `https://telegra.ph/file/ab1df70dfd5c2bac64da1.jpg`.trim()
     let res = await fetch(url)
@@ -184,13 +184,13 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Sewa',
-                                    id: '/sewa'
+                                    displayText: 'Owner',
+                                    id: '/owner'
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Owner',
-                                    id: '/owner'
+                                    displayText: 'Kecepatan',
+                                    id: '/speed'
                                 }
                             }]
                         }
